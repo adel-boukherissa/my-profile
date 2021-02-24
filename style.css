@@ -1,0 +1,118 @@
+body {
+background-color: #008891;
+color : #111d5e;
+font-family: 'Truculenta', sans-serif;
+font-size: 45px;
+}
+
+h1{
+color:white;
+font-weight: bolder;
+letter-spacing: 10px;
+font-size: 85px;
+}
+
+.img-circle{
+    border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+
+h2{
+color:white;
+font-size: 70px;
+font-weight: bold;
+margin: 0;
+}
+
+p{
+color: black
+font-size : 70px;
+}
+
+a{
+color: white;
+font-weight: bold;
+font-family: 'Reggae One', cursive;
+}
+
+a:hover{
+	color:#111d5e;
+	font-weight: bold;
+}
+
+.firstdiv{
+    color: black;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.8) ;
+    padding: 100px;
+    padding-top: 20px;
+    margin: 50px auto;
+    background: #ffc1b6;
+    border-radius: 40px;
+    border: 10px solid black;
+    width: 600px;
+    text-align: center;  
+}
+
+
+.button{
+	background: #111d5e ;
+	width: 130px;
+	text-align: center;
+	padding: 15px 20px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.8) ;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+
+.button:hover {
+  color: #111d5e;
+  text-decoration: none;
+  background:white;
+}
+
+
+.seconddiv{
+	color: black;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 80%);
+    padding: 50px;
+    background: #ffc1b6;
+    border-radius: 50%;
+    border: 10px solid white;
+    width: 600px;
+    height: 600px;
+    text-align:center;
+    margin: 55px 80px;
+}
+
+
+.fifthdiv{
+    color: black;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.8) ;
+    padding: 100px auto;
+    background: #ffc1b6;
+    border-radius: 70%;
+    border: 10px solid black;
+    width: 800px;
+    text-align: center; 
+    margin: 120px auto;
+}
+
+.flexbox{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 150px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+li{
+margin: 0px 10px;
+}
